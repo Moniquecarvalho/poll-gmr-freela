@@ -5,18 +5,18 @@
   <p align="center">
    Neste projeto de dois meses, realizei a migração de uma página WordPress para HTML e CSS, visando torná-la mais leve e personalizada. O resultado foi uma página mais eficiente em termos de desempenho, mantendo um design atraente e satisfazendo plenamente as necessidades do cliente.
     <br />
-    <a href="https://moniquecarvalho.github.io/landing-page-com-grid/"><strong>Visualizar o projeto »</strong></a>
+    <a href="https://github.com/Moniquecarvalho/poll-gmr-freela/tree/main"><strong>Visualizar o projeto »</strong></a>
     <br />
     <br />
   </p>
   <p><b>Versão Web</p>
-  <img src="./src/images/web.gif" alt="Gif da tela da Agência XYZ versão web">
+  <img src="./src/img/poll-gmr.png" alt="Print da tela da Pool Gmr versão web">
    <br />
    <br />
    <br />
    <br />
    <p><b>Versão Mobile</p>
-  <img src="./src/images/mobile.gif" alt="Gif da tela da Agência XYZ versão mobile" width="400" height="500" >
+  <img src="./src/img/pool-mobile.png" alt="Print da tela da Pool Gmr versão mobile" width="400" height="500" >
 </div>
 <br />
 <br />
@@ -29,9 +29,8 @@ Você pode visualizar a página abrindo o arquivo `index.html` em um navegador d
 ## 📂 Estrutura do Projeto
 
 - `index.html`: O arquivo principal que contém o conteúdo da página.
-- `src/css/`: A pasta que contém os arquivos CSS para estilizar a página.
+- `src/style/`: A pasta que contém os arquivos CSS para estilizar a página, resetar e a versão Mobile
 - `src/images/`: A pasta que contém imagens usadas na página.
-- `src/fonts/`: A pasta que contém arquivos de fonte utilizados no projeto.
 <br />
 
 ## 🚀 Tecnologias Utilizadas
