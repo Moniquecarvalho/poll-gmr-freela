@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;500;700;800;900&family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+   font-family: 'Nunito', sans-serif;
+   font-size: 62.5%;
+   color: #fff;
+}
+
+.header {
+   min-height: 97vh;
+   background: url("../img/bg_pool.webp");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+.header .container {
+   display: flex;
+   align-items: center;
+   padding-top: 3rem;
+   margin-left: 10rem;
+}
+
+.header .container .logo {
+   width: 160px;
+}
+
+.header nav ul {
+   display: flex;
+   align-items: center;
+   padding-left: 4.4rem;
+}
+
+.header nav li a {
+   font-size: 1.8em;
+   font-weight: 300;
+   color: #fff;
+   padding: 0px 8px;
+   border-left: 1px solid #fff;
+   display: inline-block;
+   line-height: 1;
+   transition: all 200ms ease-in-out;
+}
+
+.header nav li:first-child a {
+   border-left: none;
+}
+
+.header nav ul li a:hover {
+   color: #FEBF00;
+   text-decoration: underline 1.5px;
+   text-underline-offset: 12px;
+}
+
+.header nav ul li a:active {
+   color: #FEBF00;
+}
+
+.menu-icon {
+   display: block;
+   cursor: pointer;
+   padding: 20px;
+   font-size: 24px;
+   text-align: center;
+   transition: color 0.3s;
+}
+
+.menu-icon:hover {
+   color: #FEBF00;
+}
+
+.text-home {
+   padding-left: 50vw;
+   margin-top: 8vw;
+   display: flex;
+   align-items: center;
+}
+
+.text-home .text {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.text-home .text .title {
+   color: #fff;
+   font-family: 'Nunito', sans-serif;
+   font-weight: 700;
+   font-size: 2rem;
+   line-height: 5.7rem;
+}
+
+.text-home .text .artist {
+   color: #3A0666;
+   font-size: 6em;
+   font-weight: 800;
+   line-height: 56px;
+}
+
+.text-home .text .info {
+   display: flex;
+   font-size: 2.8em;
+   font-weight: 300;
+   line-height: 32px;
+   padding: 20px 200px 0px 150px;
+}
+
+.invest {
+   min-height: 97vh;
+   background-image: url('/src/img/bg_investidor.webp');
+   background-position: bottom center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+
+}
+
+.invest .text-invest {
+   padding: 5rem 0px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 10rem;
+   width: 42vw;
+}
+
+.text-invest .title-two {
+   color: #10A19C;
+   font-weight: 800;
+   font-size: 5em;
+   line-height: 1;
+   padding: 30px 0;
+}
+
+.text-invest .sub-title {
+   color: #FEBF00;
+   font-weight: 700;
+   font-size: 3.5em;
+   line-height: 40px;
+   margin-bottom: 1rem;
+}
+
+.text-invest .info-two {
+   font-weight: 300;
+   font-size: 2.2em;
+   line-height: 32px;
+   margin-bottom: 1rem;
+}
+
+.midia {
+   background-color: #FEBF00;
+   padding: 3rem 0;
+}
+
+.midia .artist-midia {
+   color: #3A0666;
+   font-weight: 900;
+   font-size: 4em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.midia .image-midia {
+   display: flex;
+   justify-content: center;
+   padding-top: 3rem;
+}
+
+.midia .image-midia img {
+   padding: 10px;
+}
+
+.music {
+   background-image: url('/src/img/fundo_roxo.webp');
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 4rem 0;
+}
+
+.music .title-three {
+   color: #10A19C;
+   font-weight: 900;
+   font-size: 4em;
+   text-align: center;
+   padding-bottom: 3rem;
+}
+
+.music .logo-music {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px 0;
+}
+
+.music .logo-music img {
+   padding: 0 23px;
+}
+
+#footer {
+   color: #fff;
+   background-color: #070707;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 40px;
+}
+
+#footer-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   align-content: center;
+   width: 100%;
+}
+
+#footer-logo {
+   width: 230px;
+}
+
+#footer-texts {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   padding-left: 150px;
+}
+
+#footer-text {
+   font-weight: 300;
+   font-size: 20px;
+}
+
+#footer-icons {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding-top: 50px;
+}
+
+#footer-icon {
+   margin: 0px 10px;
+   transition: all 200ms ease-in-out;
+   color: #fff;
+}
+
+#footer-icon:hover {
+   fill: #faad18;
+}
+
+#footer-copy {
+   padding-top: 20px;
+   font-weight: 200;
+   font-size: 14px;
+   padding-bottom: 20px;
+}

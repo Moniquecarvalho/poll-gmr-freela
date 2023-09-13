@@ -1,0 +1,144 @@
+@media screen and (max-width: 860px) {
+  .header {
+    background-image: url('/src/img/bg_pool_mobile.webp');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: auto;
+  }
+
+  .header .container {
+    margin: 0;
+  }
+
+  .header .container .logo {
+    width: 200px;
+    padding: 0 10px;
+  }
+
+  .text-home {
+    padding: 60px 10px;
+    margin-top: 121px;
+  }
+
+  .text-home .text .title {
+    font-size: 27px;
+    padding-bottom: 70px;
+  }
+
+  .text-home .text .artist {
+    font-size: 27px;
+    line-height: 1.4em;
+    text-align: center;
+  }
+
+  .text-home .text .info {
+    padding: 0;
+    text-align: center;
+    font-size: 23px;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .invest {
+    background-image: url('/src/img/bg_investidor_mobile.webp');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 430px;
+  }
+
+  .invest .text-invest {
+    margin: 0;
+    width: auto;
+    padding: 0;
+  }
+
+  .text-invest .title-two {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .text-invest .sub-title {
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .text-invest .info-two {
+    padding: 0 10px;
+    margin-bottom: 25px;
+  }
+
+  .midia {
+    text-align: center;
+    padding: 50px 10px;
+  }
+
+  .midia .artist-midia {
+    font-size: 35px;
+  }
+
+  .midia .image-midia {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .midia .image-midia img {
+    height: auto;
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .music {
+    padding: 50px 0;
+  }
+
+  .music .title-three {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+
+  .music .logo-music {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .music .logo-music img {
+    padding: 30px 0;
+  }
+
+  #footer {
+    padding: 50px 10px 10px 10px;
+  }
+
+  #footer-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #footer-logo {
+    width: 150px;
+    margin-bottom: 40px;
+  }
+
+  #footer-texts {
+    padding-left: 0;
+  }
+
+  #footer-text {
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  #footer-icons {
+    padding-top: 30px;
+  }
+
+  #footer-copy {
+    font-size: 10px;
+  }
+
+}
