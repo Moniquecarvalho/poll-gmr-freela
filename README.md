@@ -5,7 +5,7 @@
   <p align="center">
    Neste projeto de dois meses, realizei a migração de uma página WordPress para HTML e CSS, visando torná-la mais leve e personalizada. O resultado foi uma página mais eficiente em termos de desempenho, mantendo um design atraente e satisfazendo plenamente as necessidades do cliente.
     <br />
-    <a href="https://github.com/Moniquecarvalho/poll-gmr-freela/tree/main"><strong>Visualizar o projeto »</strong></a>
+    <a href="https://moniquecarvalho.github.io/poll-gmr-freela/"><strong>Visualizar o projeto »</strong></a>
     <br />
     <br />
   </p>
